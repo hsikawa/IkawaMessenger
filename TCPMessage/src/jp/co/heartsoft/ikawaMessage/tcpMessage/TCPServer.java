@@ -1,3 +1,4 @@
+package jp.co.heartsoft.ikawaMessage.tcpMessage;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -11,7 +12,7 @@ public class TCPServer implements Runnable {
 	@Override
 	public void run() {
 
-		int servPort = 8080;
+		int servPort = 8081;
 		int recvMsgSize;
 		byte[] byteBuffer = new byte[BUFSIZE];
 
